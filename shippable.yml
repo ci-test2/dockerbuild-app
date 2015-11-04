@@ -7,19 +7,19 @@ python:
   
 script:
   - true
-archive: true
+#archive: true
 
 build_image: shippableimages/ubuntu1204_python
 
 env:
  - secure: LI/dIIhopP0A2QnYkWJYVutLxmgVgvyNk4tZP9Je4GMkhWwAQTzO5JVJXFoIkAMQJYJK2wiPELznYONIFuwQ0d4UGXMlji4Lv68WUIC54z3PrzpJRS7wPzkmhoJTlmkoH60Kx1jI8PxXky/6+mEpsqWOf2PZC9UCbZnpddDgiR/wLBOkPMh3WUPkv1Atokb05rJWMSVw24xq61wiKAhkQNklwnT8wWx0l5tY3YrUcn7Ae2wCTTdxFROwgB2+rdD1oea4Fv5Dt2pYiNiysOqcRIX88pFRf9NiqwiaMoGNaGP6gjv3haZ77IceBBoVGSPXvsIan+8ok6pnjkazpu1W5w==
  
-after_script: echo $env1
+#after_script: echo $env1
 
 notifications:
      email:
-         recipients:
-             - varsha@shippable.com
+        # recipients:
+         #    - varsha@shippable.com
              - test12.ci34@gmail.com
             # - vidyac.raghav@gmail.com
          #on_success: change
