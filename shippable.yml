@@ -7,7 +7,7 @@ python:
   
 script:
   - true
-archive: true
+#archive: true
 
 build_image: shippableimages/ubuntu1204_python
 
