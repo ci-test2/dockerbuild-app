@@ -19,9 +19,9 @@ after_script: echo $env1
 notifications:
      email:
          recipients:
-             - varsha@shippable.com
-             - test12.ci34@gmail.com
-          on_success: change
-          on_failure: always
+             - exampleone@org.com
+             - exampletwo@org.com
+         on_success: change
+         on_failure: always
          
 cache: true
