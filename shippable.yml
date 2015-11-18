@@ -7,7 +7,7 @@ python:
   
 script:
   - true
-#archive: true
+archive: true
 
 #build_image: shippableimages/ubuntu1204_php
 
@@ -25,4 +25,4 @@ script:
       #   on_success: change
        #  on_failure: always
          
-#cache: true
+cache: true
