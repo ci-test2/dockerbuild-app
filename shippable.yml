@@ -19,7 +19,7 @@ after_script: echo $env1
 notifications:
   email:
     varsha@shippable.com
-      on_success: change
-      on_failure: always
+      #on_success: change
+      #on_failure: always
          
 cache: true
