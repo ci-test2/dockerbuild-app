@@ -23,5 +23,6 @@ notifications:
         - test12.ci34@gmail.com
       on_success: change
       on_failure: always
+  irc: "chat.freenode.net#test-irc"
          
-cache: true
+#cache: true
