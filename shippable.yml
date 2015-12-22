@@ -7,7 +7,6 @@ python:
   
 script:
   - true
-archive: true
 
 build_image: drydock/u14pytall:tip
 
@@ -20,3 +19,5 @@ notifications:
   email:
     - notify_ci34@yahoo.in
   irc: "chat.freenode.net#test-irc"
+  
+archive: true
