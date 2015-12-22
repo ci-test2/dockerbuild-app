@@ -1,7 +1,7 @@
 language: python
 
 python:
-  - 3.4
+  - 2.6
   #- 2.7
  # - 3.3
   
@@ -9,7 +9,7 @@ script:
   - true
 archive: true
 
-build_image: shippableimages/ubuntu1204_php
+build_image: drydock/u12pytall:tip
 
 env:
  - secure: LI/dIIhopP0A2QnYkWJYVutLxmgVgvyNk4tZP9Je4GMkhWwAQTzO5JVJXFoIkAMQJYJK2wiPELznYONIFuwQ0d4UGXMlji4Lv68WUIC54z3PrzpJRS7wPzkmhoJTlmkoH60Kx1jI8PxXky/6+mEpsqWOf2PZC9UCbZnpddDgiR/wLBOkPMh3WUPkv1Atokb05rJWMSVw24xq61wiKAhkQNklwnT8wWx0l5tY3YrUcn7Ae2wCTTdxFROwgB2+rdD1oea4Fv5Dt2pYiNiysOqcRIX88pFRf9NiqwiaMoGNaGP6gjv3haZ77IceBBoVGSPXvsIan+8ok6pnjkazpu1W5w==
@@ -18,5 +18,5 @@ after_script: echo $env1
 
 notifications:
   email:
-    - test12.ci34@gmail.com
+    - notify_ci34@yahoo.in
   irc: "chat.freenode.net#test-irc"
