@@ -8,13 +8,9 @@ python:
 script:
   - true
 
-#build_image: drydock/u14pytall:tip
-
 env:
   - SHIP=ayeaye
-  #- secure: J9QXdgXg/ffVD6ZCm6CcDWTBrktfQ6k3hdnRY27KOqgHLOiPA5beVORoo0HI8DriJRtConzxcbEYxP1rMsttjXq+P/7miOsS41LVHGHnpIXJqTz97Qqw9mV0nK+KNWDgovmf2f153MI5RwCALITn/7nZOyNp18ykMwgEngdoHTJ9CE+qbvS31FQI35RyG73jF7AMbbX9xFU7ptf1l4Sq+PCAFmPmmBTYiN3zDmtgRZcU+OUeA3QnqpHj9I2JC2KCg5AiS+6Em6Eu76/2giBqhY/olRE4tuOWKBLEs+9vp7rAPtKl934UaUugtDUtDBv4hJJl7U6RFWMUYxGRWvAxAQ== 
- # - secure: LI/dIIhopP0A2QnYkWJYVutLxmgVgvyNk4tZP9Je4GMkhWwAQTzO5JVJXFoIkAMQJYJK2wiPELznYONIFuwQ0d4UGXMlji4Lv68WUIC54z3PrzpJRS7wPzkmhoJTlmkoH60Kx1jI8PxXky/6+mEpsqWOf2PZC9UCbZnpddDgiR/wLBOkPMh3WUPkv1Atokb05rJWMSVw24xq61wiKAhkQNklwnT8wWx0l5tY3YrUcn7Ae2wCTTdxFROwgB2+rdD1oea4Fv5Dt2pYiNiysOqcRIX88pFRf9NiqwiaMoGNaGP6gjv3haZ77IceBBoVGSPXvsIan+8ok6pnjkazpu1W5w==
- 
+  
 after_script: echo $TEST
 
 notifications:
